@@ -1,0 +1,18 @@
+mysql> create database backend2;
+mysql> use backend2;
+
+mysql> create table registro_User(
+    -> id integer primary key,
+    -> name varchar (30),
+    -> password varchar (30),
+    -> email varchar (30));
+Query OK, 0 rows affected (0.11 sec)
+
+mysql> select * from registro_user
+    -> ;
++----+----------+-----------+---------------------------+
+| id | name     | password  | email                     |
++----+----------+-----------+---------------------------+
+|  1 | econcept | 123456789 | econcept@econceptgroup.co |
++----+----------+-----------+---------------------------+
+1 row in set (0.00 sec)
